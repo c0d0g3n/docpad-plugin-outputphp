@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-outputphp",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "DocPad plugin that enables php generation (todo: enable docpad server to process php files through child_process.spawn; for now you should symlink the docpad /out dir in an apache folder)",
   "homepage": "https://github.com/c0d0g3n/docpad-plugin-outputphp",
   "license": {
