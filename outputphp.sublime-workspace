@@ -1,0 +1,723 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"consol",
+				"console.log"
+			],
+			[
+				"in",
+				"inExtension"
+			],
+			[
+				"out",
+				"outExtension"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"@bp0-for",
+				"@bp0-form-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@form-font",
+				"@form-font-color-active\t(variables.inc.less)"
+			],
+			[
+				"@bp0-form-mar",
+				"@bp0-form-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-form-b",
+				"@bp0-form-border-type\t(variables.inc.less)"
+			],
+			[
+				"@inver",
+				"@inverted-font-color"
+			],
+			[
+				"@bp0-bloc",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"@bp0-bl",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"tex",
+				"textarea\t(index.html.md)"
+			],
+			[
+				"@bp10-ima",
+				"@bp10-image-border-size"
+			],
+			[
+				"@bp10-bl",
+				"@bp10-block-padding-vertical\t(variables.inc.less)"
+			],
+			[
+				"@bp0-the",
+				"@bp0-theme-footer-font-size\t(variables.inc.less)"
+			],
+			[
+				"@bp10-f",
+				"@bp10-footer-font-size"
+			],
+			[
+				"sc",
+				"scroll-to-top"
+			],
+			[
+				"@bp0-header",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp0-head",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp10-row",
+				"@bp10-row-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp10-ro",
+				"@bp10-row-margin-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-p-",
+				"@bp0-p-padding-horizontal"
+			],
+			[
+				"@bp0-content",
+				"@bp0-content-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-hea",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp5-bl",
+				"@bp5-block-margin-horizontal"
+			],
+			[
+				"@bp5-block",
+				"@bp5-block-padding-horizontal"
+			],
+			[
+				"@bp0-b",
+				"@bp0-block-padding-vertical"
+			],
+			[
+				"@bp0-con",
+				"@bp0-content-padding-horizontal"
+			],
+			[
+				"@bp0-",
+				"@bp0-header-font-size\t(variables.inc.less)"
+			],
+			[
+				"@bp0-blo",
+				"@bp0-block-padding-horizontal"
+			],
+			[
+				"@inverted",
+				"@inverted-font-color\t(variables.inc.less)"
+			],
+			[
+				"@inverte",
+				"@inverted-background-color\t(variables.inc.less)"
+			],
+			[
+				"@conten",
+				"@content-background-color"
+			],
+			[
+				"@inve",
+				"@inverted-background-color"
+			],
+			[
+				"@bp10-blo",
+				"@bp10-block-padding-horizontal"
+			],
+			[
+				"@bp10-r",
+				"@bp10-row-width\t(variables.inc.less)"
+			],
+			[
+				"@bp10-block",
+				"@bp10-block-padding-vertical\t(variables.inc.less)"
+			],
+			[
+				"page-heade",
+				"page-header-title\t(page.html.eco)"
+			],
+			[
+				"@bp10-nav",
+				"@bp10-nav-font-size\t(variables.inc.less)"
+			],
+			[
+				"@nav-font",
+				"@bp0-nav-font-size"
+			],
+			[
+				"@cont",
+				"@content-background-color"
+			],
+			[
+				"@bp10-l",
+				"@bp10-nav-line-height\t(variables.inc.less)"
+			],
+			[
+				"@bp10-bloc",
+				"@bp10-block-margin-vertical\t(variables.inc.less)"
+			],
+			[
+				"@bp10-he",
+				"@bp10-header-line-height"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"page-hea",
+				"page-header-wpr\t(page.html.eco)"
+			],
+			[
+				"page-header",
+				"page-header-title"
+			],
+			[
+				"page-nav",
+				"page-nav-toggle"
+			],
+			[
+				"page",
+				"page-content"
+			],
+			[
+				"main",
+				"main-row"
+			],
+			[
+				"@bp10",
+				"@bp10-header-height\t(variables.inc.less)"
+			],
+			[
+				"@bp0-p-padding",
+				"@bp0-p-padding-vertical"
+			],
+			[
+				"rel",
+				"relative\t(above-fold.inc.less)"
+			],
+			[
+				"ab",
+				"above-fold"
+			],
+			[
+				"@bph-he",
+				"@bph-header-height\t(variables.inc.less)"
+			],
+			[
+				"@bp0-h1",
+				"@bp0-h1-font-size"
+			],
+			[
+				"@bp0-nav",
+				"@bp0-nav-font-size"
+			],
+			[
+				"@bp0-he",
+				"@bp0-header-font-size"
+			],
+			[
+				"@bp0-divid",
+				"@bp0-divider-color\t(variables.inc.less)"
+			],
+			[
+				"@bp0-div",
+				"@bp0-divider-type\t(variables.inc.less)"
+			],
+			[
+				"@bp0-di",
+				"@bp0-divider-size\t(variables.inc.less)"
+			],
+			[
+				"@inverter-",
+				"@inverted-background-color"
+			],
+			[
+				"scr",
+				"scroll-to-top\t(page.html.eco)"
+			],
+			[
+				"ac",
+				"activeElement"
+			],
+			[
+				"@bp0-co",
+				"@bp0-content-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@bp0-block",
+				"@bp0-block-padding-vertical"
+			],
+			[
+				"@content",
+				"@content-background-color-dark"
+			],
+			[
+				"@inv",
+				"@inversed-font-color"
+			],
+			[
+				"@inversed",
+				"@inversed-border-color"
+			],
+			[
+				"@bp0-n",
+				"@bp0-nav-font-size\t(variables.inc.less)"
+			],
+			[
+				"@contetn",
+				"@content-background-color\t(variables.inc.less)"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"@bp0",
+				"@bp0-block-padding-horizontal\t(variables.inc.less)"
+			],
+			[
+				"@inverse",
+				"@inversed-font-color\t(header.inc.less)"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"bp15-nav-bor",
+				"bp15-nav-border-size"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"bp0-footer",
+				"bp0-footer-text-size"
+			],
+			[
+				"bp0-nav",
+				"bp0-nav-text-size"
+			],
+			[
+				"bac",
+				"background-clip"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"bp0-text",
+				"bp0-text-padding-vertical"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"lis",
+				"list-style-type"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/outputphp.plugin.coffee",
+			"settings":
+			{
+				"buffer_size": 1123,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/bruno/Bureaublad/dev/stellar/2/out/contact2/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/contact2/index.php.html.md.eco",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/README.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/known_issues.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/src/outputphp.plugin.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/src/render/test2.php.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/out-expected/test2.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/out-expected/test1.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/src/render/test1.php.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/src/outputphp.test.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/out/marked.plugin.js",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/out/test1.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/out/test.php",
+		"/home/bruno/Bureaublad/site/out/assets/css/screen.css",
+		"/home/bruno/Bureaublad/site/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/docpad.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/custom_markdown.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/test/src/render/test3.php.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/contact/index.html.md.eco",
+		"/home/bruno/Bureaublad/dev/stellar/2/gulpfile.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/contact2/index.html.eco.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/test2/index.php.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/test2/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/out-expected/test3.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/src/render/test3.php.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/src/render/test2.php.htm",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/src/render/test1.php.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/out-expected/test2.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/out-expected/test1.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/test/src/render/test1.php.htm",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/src/output-php.plugin.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/src/output-php.test.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/src/output-php.tester.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/Cakefile",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/output-php/README.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/test/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/test/index.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/test/index.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/todo.md",
+		"/home/bruno/Bureaublad/apache/subterra_backend/.htaccess",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/index.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/.htaccess",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/layouts/page.html.eco",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js/form.js.coffee",
+		"/home/bruno/Bureaublad/apache/subterra_backend/server.php",
+		"/home/bruno/Bureaublad/dev/sources/docs/apache",
+		"/home/bruno/Bureaublad/apache/subterra_backend/lib/config.inc.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/contact/index.html.md",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/ajax/contact/index.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/static/contact/contact.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/static/contact.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/lib/form.inc.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/api/ajax/contact.php",
+		"/home/bruno/Bureaublad/apache/subterra_backend/index.html",
+		"/home/bruno/Bureaublad/apache/subterra_backend/contact.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/js/main.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/dist/js/stellar.min.js",
+		"/home/bruno/Bureaublad/todo.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/static/assets/css/font-awesome.css",
+		"/home/bruno/Bureaublad/apache/index.php",
+		"/home/bruno/Bureaublad/apache/test/index.php",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/content.inc.less",
+		"/home/bruno/Bureaublad/apache/index.html",
+		"/etc/apache2/apache2.conf",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/form.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/main.inc.less",
+		"/var/www/html/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-livereload/out/livereload.plugin.js",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/assets/css/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/dist/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/out/test/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/screen.css.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/test-markdown-elements/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/package.json",
+		"/home/bruno/Bureaublad/dev/stellar/2/node_modules/docpad-plugin-marked/README.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/under-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/nav.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/footer.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/inverted.mod.inc.less",
+		"/home/bruno/Bureaublad/build.md",
+		"/home/bruno/Bureaublad/dev/stellar/2/stellar_2.sublime-project",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/main.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/rounded.mod.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/layouts/page.html.eco",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/content.inc.less",
+		"/home/bruno/Bureaublad/stellar/src/render/assets/css/main.inc.less",
+		"/home/bruno/Bureaublad/stellar/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/dev/sources/docs/configure_sublime_text",
+		"/home/bruno/Bureaublad/dev/stellar/2/src/render/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/assets/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/nav.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/variables.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/js/main.js.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/gear/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/portfolio/index.html",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/assets/css/normalize.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/about/index.html.md",
+		"/home/bruno/Bureaublad/dev/stellar/main/docpad.coffee",
+		"/home/bruno/Bureaublad/stellar/docpad.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/footer.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/header.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/under-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/above-fold.inc.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/static/assets/css/font-awesome.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/gulpfile.coffee",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/css/screen.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/out/dist/css/screen.min.css",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/test-markdown-elements/index.html.md",
+		"/home/bruno/Bureaublad/crosshair/dev/less/includes/variables.less",
+		"/home/bruno/Bureaublad/crosshair/dev/less/includes/main.less",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/screen.css.less",
+		"/home/bruno/Bureaublad/crosshair/default.hbs",
+		"/home/bruno/Bureaublad/crosshair/index.hbs",
+		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/background.inc.less",
+		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/font-awesome.less",
+		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/core.less"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-php",
+			"plugin",
+			"YourPluginName",
+			"place",
+			"main",
+			"868",
+			"width",
+			"inversed",
+			"show",
+			"class",
+			";\n",
+			"color",
+			"url",
+			"sicing elit, sed do eiusmod te",
+			"sourcemaps",
+			"runsequence",
+			"browsersync",
+			"task",
+			"callback(",
+			"casper"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"php",
+			"Output-php",
+			"inverted",
+			"browserSync"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/outputphp.plugin.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "outputphp.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

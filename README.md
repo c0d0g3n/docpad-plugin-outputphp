@@ -32,6 +32,14 @@ Besides it worked in the particular use case it was developed for, but I decided
 **If you don't need the markdown functionality, you might be better of with [this answer](http://stackoverflow.com/questions/23710658/docpad-generate-php-output-file#26706756).**
 
 ### Known issues
+- **Php can't yet be served via DocPad.**
+You should setup an traditional webserver (e.g. apache) with php enabled
+and make the DocPad `/out` directory accessible (directly or via symlink) through it.
+- When using layouts, **make sure you use a layout with `.php.html` in the extension**;
+DocPad uses the layout extension to determine the final extension of the resource.
+  - If you don't want to manage duplicate files (which defeats the purpose of layouts),
+  you can create a symbolic link for the php layout to the html layout, like so (on linux in the `layout` folder):
+  `ln -s layoutname.html.eco php-layoutname.php.html.eco`. Don't forget to select the appropriate layout for your (php) files!
 - Html entities present in php code will be converted to their single character counterparts.
   There is no way in solving this issue with the currently used method.
   For that we would need to write a markdown parser that doesn't escape php code in the first place.
@@ -39,9 +47,6 @@ Besides it worked in the particular use case it was developed for, but I decided
   - Can possibly be solved if a sign is added that triggers `removePTags: false` for that particular match
 - Any php code that matches the markdown syntax will be converted into its html counterpart, this may cause unintended behavior. At the moment I don't know what behavior is more desired,
 so I'm settling with the least work intensive method
-- **Php can't yet be served via DocPad.**
-You should setup an traditional webserver (e.g. apache) with php enabled
-and make the DocPad `/out` directory accessible (directly or via symlink) through it.
 
 
 <!-- INSTALL/ -->

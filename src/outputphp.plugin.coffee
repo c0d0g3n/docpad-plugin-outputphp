@@ -44,7 +44,3 @@ module.exports = (BasePlugin) ->
 
 			# Done
 			return
-
-		# docpadReady: ->
-		# 	marked = require 'marked'
-		# 	console.log new marked.Lexer('test')
