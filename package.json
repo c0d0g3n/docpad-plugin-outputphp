@@ -1,14 +1,18 @@
 {
-  "name": "docpad-plugin-yourpluginname",
+  "name": "docpad-plugin-outputphp",
   "version": "2.0.0",
-  "description": "DocPad plugin that adds the ability to render Something to Something Else",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
-  "license": "MIT",
+  "description": "DocPad plugin that enables php generation (todo: enable docpad server to process php files through child_process.spawn; for now you should symlink the docpad /out dir in an apache folder)",
+  "homepage": "https://github.com/c0d0g3n/docpad-plugin-outputphp",
+  "license": {
+    "type": "MIT"
+  },
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "outputphp",
+    "php",
+    "c0d0g3n",
+    "php-server"
   ],
   "badges": {
     "travis": true,
@@ -22,21 +26,18 @@
     "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
     "wishlist": "https://amzn.com/w/2F8TXKSNAFG4V"
   },
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+  "author": "c0d0g3n",
   "maintainers": [
-    "Your name <your email> (your github url)",
+    "c0d0g3n (https://github.com/c0d0g3n)",
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [
-    "balupton (https://github.com/balupton)",
-    "RobLoach (https://github.com/RobLoach)"
-  ],
+  "contributors": [],
   "bugs": {
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+    "url": "https://github.com/c0d0g3n/outputphp/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+    "url": "https://github.com/c0d0g3n/outputphp.git"
   },
   "engines": {
     "node": ">=0.8"
@@ -50,9 +51,9 @@
     "coffee-script": "^1.9.1",
     "projectz": "^0.5.0"
   },
-  "main": "./out/yourpluginname.plugin.js",
+  "main": "./out/outputphp.plugin.js",
   "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
+    "test": "node ./out/outputphp.test.js"
   },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"

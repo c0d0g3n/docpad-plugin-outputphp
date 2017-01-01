@@ -1,5 +1,9 @@
 {
-  "name": "docpad-plugin-yourpluginname-testsite",
+  "name": "docpad-plugin-outputphp-testsite",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+  	"docpad-plugin-eco": "~2.1.0",
+  	"docpad-plugin-marked": "~2.3.0"
+  }
 }
