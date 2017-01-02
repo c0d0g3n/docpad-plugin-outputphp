@@ -45,8 +45,12 @@ DocPad uses the layout extension to determine the final extension of the resourc
   For that we would need to write a markdown parser that doesn't escape php code in the first place.
 - Opening p tag disappears when php code is added at begin of paragraph with `removePTags: true`
   - Can possibly be solved if a sign is added that triggers `removePTags: false` for that particular match
+- Php code cannot contain <p> tags. It is this limitation or dozens of errors when using multi line php.
+However, html tags should appear if you manually encode them (yet another quirk).
 - Any php code that matches the markdown syntax will be converted into its html counterpart, this may cause unintended behavior. At the moment I don't know what behavior is more desired,
 so I'm settling with the least work intensive method
+- Issues with escaped characters
+- Doesn't handle indention
 
 
 <!-- INSTALL/ -->
@@ -77,6 +81,9 @@ As with every DocPad plugin, options can be specified like this:
                 # config for this plugin, yay!
                 removePTags: false
 
+
+## To do and ideas
+https://trello.com/b/nrsltIsD/docpad-plugin-outputphp
 
 
 <!-- HISTORY/ -->

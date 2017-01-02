@@ -4,7 +4,9 @@
 	<title>test 2</title>
 </head>
 <body>
-<?php echo '<b>Hello I'm php!</b>'; ?>
+
+<?php echo "<b>Hello I'm php!</b>"; ?>
+
 <h1>test 2</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

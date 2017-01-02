@@ -7,7 +7,8 @@ module.exports = (BasePlugin) ->
 
 		# pattern
 		# matchphp: /&lt;\?php[\S\s]*?\?&gt;/g
-		matchphp: /(<p>)?&lt;\?php[\S\s]*?\?&gt;(<\/p>)?/g
+		matchphpandp: /(<p>)?&lt;\?php[\S\s]*?\?&gt;(<\/p>)?/g
+		matchphpnop: /&lt;\?php[\S\s]*?\?&gt;/g
 
 		# settings
 		config:
@@ -21,25 +22,32 @@ module.exports = (BasePlugin) ->
 
 			if inExtension in ['htm','html'] and outExtension in ['php']
 
+				if @config.removePTags
+					matchPattern = @matchphpandp
+				else
+					matchPattern = @matchphpnop
+
 				# get php tags and content
-				opts.content = opts.content.replace @matchphp, (match, pOpen, pClose) =>
-					out = match
+				opts.content = opts.content.replace matchPattern, (match) =>
 
-					# remove p tags
-					if @config.removePTags
-						out = out
-							.replace /^<p>/, ''
-							.replace /<\/p>$/, ''
-
-					# unescape php tags and content
-					out = out
+					match
+						# remove p tags (added by marked) in php (also removes wrapping p if theyre matched, see `removePTags`)
+						.replace /<p>/g, ''
+						.replace /<\/p>/g, ''
+						# replace <pre><code> with tab
+						.replace /<pre><code>[\S\s]+<\/code><\/pre>/g, (match) ->
+							match
+								.replace /<pre><code>/g, ''
+								.replace /<\/code><\/pre>/g, ''
+								.replace /(\n+|^)/g, '$&\t'
+						# four spaces into tab for consistency
+						.replace /( ){4}/g, '\t'
+						# unescape php
 						.replace /&gt;/g, '>'
 						.replace /&lt;/g, '<'
 						.replace /&guot;/g, '"'
 						.replace /&#39;/g, "'"
 						.replace /&amp;/g, '&'
-
-					return out
 
 
 			# Done

@@ -367,14 +367,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/outputphp.plugin.coffee",
-			"settings":
-			{
-				"buffer_size": 1123,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -415,8 +407,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/bruno/Bureaublad/dev/docpad_plugins/outputphp",
+		"/home/bruno/Bureaublad/dev/docpad_plugins/outputphp/test"
+	],
 	"file_history":
 	[
+		"/home/bruno/Bureaublad/dev/docpad_plugins/outputphp/src/outputphp.plugin.coffee",
+		"/home/bruno/Bureaublad/dev/docpad_plugins/outputphp/README.md",
+		"/home/bruno/Bureaublad/dev/docpad_plugins/outputphp/package.json",
 		"/home/bruno/Bureaublad/dev/stellar/2/out/contact2/index.html",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/render/contact2/index.php.html.md.eco",
 		"/home/bruno/Bureaublad/dev/stellar/2/src/plugins/outputphp/README.md",
@@ -541,10 +541,7 @@
 		"/home/bruno/Bureaublad/crosshair/dev/less/includes/main.less",
 		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/screen.css.less",
 		"/home/bruno/Bureaublad/crosshair/default.hbs",
-		"/home/bruno/Bureaublad/crosshair/index.hbs",
-		"/home/bruno/Bureaublad/dev/stellar/main/src/render/assets/css/background.inc.less",
-		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/font-awesome.less",
-		"/home/bruno/Bureaublad/dev/sources/font-awesome-4.7.0/less/core.less"
+		"/home/bruno/Bureaublad/crosshair/index.hbs"
 	],
 	"find":
 	{
@@ -603,38 +600,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/outputphp.plugin.coffee",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
