@@ -15,8 +15,7 @@
 
 <!-- /BADGES -->
 
-
-Quick and dirty way (see #known issues) to allow generation of server side php.
+Quick and dirty way to preprocess with anything&trade; (actually markdown) and (hopfully) still get php back.
 This plugin operates on the extensions `.html` and `.htm` and outputs `.php`
 ,thereby reverting the html entity decoding that the Marked parser did op php tags and its content.
 
@@ -32,6 +31,8 @@ Besides it worked in the particular use case it was developed for, but I decided
 **If you don't need the markdown functionality, you might be better of with [this answer](http://stackoverflow.com/questions/23710658/docpad-generate-php-output-file#26706756).**
 
 ### Known issues
+Some of these issues only apply to unindented php blocks, as seen below.
+
 - **Php can't yet be served via DocPad.**
 You should setup an traditional webserver (e.g. apache) with php enabled
 and make the DocPad `/out` directory accessible (directly or via symlink) through it.
@@ -51,6 +52,20 @@ However, html tags should appear if you manually encode them (yet another quirk)
 so I'm settling with the least work intensive method
 - Issues with escaped characters
 - Doesn't handle indention
+
+### Recommendations
+Marking up your php code as a markdown code block (thus indenting, e.g. with tabs) will mitigate a lot of issues
+as Marked leaves code blocks untouched.
+
+### Alternatives
+
+#### Solve the server issue
+I haven't tried it yet, but using `docpad-plugin-php` in combination with `dynamic: true` frontmatter,
+might do the trick. This way DocPad should be able to serve php
+(you still need to have php installed, as DocPad proxies the calls)
+
+#### I'm here because DocPad does not output `.php` extensions
+You might be better off looking here: http://stackoverflow.com/questions/23710658/docpad-generate-php-output-file#26706756
 
 
 <!-- INSTALL/ -->

@@ -17,3 +17,16 @@ $variable = 'test';
 		echo $indented2 . ' separate';
 
 ?>
+
+	<?php
+	echo 'test';
+	
+	$variable = 'test';
+	
+		$indented = 'I hope this works!';
+		echo $indented . ' <b>too</b>';
+			$indented2 = 2;
+	
+			echo $indented2 . ' &lt;separate&gt;';
+	
+	?>

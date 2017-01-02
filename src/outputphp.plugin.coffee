@@ -7,8 +7,8 @@ module.exports = (BasePlugin) ->
 
 		# pattern
 		# matchphp: /&lt;\?php[\S\s]*?\?&gt;/g
-		matchphpandp: /(<p>)?&lt;\?php[\S\s]*?\?&gt;(<\/p>)?/g
-		matchphpnop: /&lt;\?php[\S\s]*?\?&gt;/g
+		matchphpandp: /(<p>|<pre><code>)?&lt;\?php[\S\s]*?\?&gt;(<\/p>|\r?\n?<\/code><\/pre>)?/g
+		matchphpnop: /(<pre><code>)?&lt;\?php[\S\s]*?\?&gt;(\r?\n?<\/code><\/pre>)?/g
 
 		# settings
 		config:
@@ -34,12 +34,13 @@ module.exports = (BasePlugin) ->
 						# remove p tags (added by marked) in php (also removes wrapping p if theyre matched, see `removePTags`)
 						.replace /<p>/g, ''
 						.replace /<\/p>/g, ''
-						# replace <pre><code> with tab
+						# preserve indention in tabs
 						.replace /<pre><code>[\S\s]+<\/code><\/pre>/g, (match) ->
 							match
-								.replace /<pre><code>/g, ''
-								.replace /<\/code><\/pre>/g, ''
 								.replace /(\n+|^)/g, '$&\t'
+						# remove <pre><code>
+						.replace /<pre><code>/g, ''
+						.replace /<\/code><\/pre>/g, ''
 						# four spaces into tab for consistency
 						.replace /( ){4}/g, '\t'
 						# unescape php
